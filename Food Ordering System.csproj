@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C657BD10-0EFA-4EFB-A335-DD34004F7558}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Food_Ordering_System</RootNamespace>
+    <AssemblyName>Food Ordering System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shoyu Ramen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shoyu Ramen1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMA Sushi Menu _ Food Photography.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morrisons - Food To Order.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adam Liaw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shabu Shabu in Wien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Takoyaki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yakitori Recipe 焼き鳥.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yakisoba noodles prato de yakisoba com carne de frango e vegetais _ Foto Premium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Retro Japanese Ramen Icon by meatman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile Icon Silhouette PNG Transparent, Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG Image For Free Download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contacts White Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philippine Peso free vector icons designed by iconixar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philippines Peso Currency Symbol free icons designed by Freepik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philippine peso free vector icons designed by iconixar %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Vector _ Japanese food.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salmon Fish and Product Icon Set Stock Vector - Illustration of gold, coin_ 127540410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Vector _ Japanese food1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit Button stock vector_ Illustration of leaving, away - 2232939.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit Button stock vector_ Illustration of leaving, away - 22329391.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browse thousands of Button 3D Animation images for design inspiration.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next Button Clipart Transparent PNG Hd, Game Button Next Button, Game, Button, Switch PNG Image For Free Download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconos gratuitos de Flecha Izquierda diseñados por Lizel Arina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mensaje General - MiLiberty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buttons stock illustration_ Illustration of periodic, dimensions - 2821609.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconos de Flecha Izquierda para descargar gratis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browse thousands of Button 3D Animation images for design inspiration1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit Button stock vector_ Illustration of leaving, away - 22329392.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browse thousands of Button 3D Animation images for design inspiration2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browse thousands of Button 3D Animation images for design inspiration3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entry And Exit Gate Sign Board%28Pack of 1 Entry 1 Exit Board%29 - Petro Mart.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
