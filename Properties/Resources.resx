@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="download (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Next Button Clipart Transparent PNG Hd, Game Button Next Button, Game, Button, Switch PNG Image For Free Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next Button Clipart Transparent PNG Hd, Game Button Next Button, Game, Button, Switch PNG Image For Free Download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yakisoba noodles prato de yakisoba com carne de frango e vegetais _ Foto Premium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yakisoba noodles prato de yakisoba com carne de frango e vegetais _ Foto Premium.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Morrisons - Food To Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Morrisons - Food To Order.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Philippines Peso Currency Symbol free icons designed by Freepik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Philippines Peso Currency Symbol free icons designed by Freepik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shabu Shabu in Wien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shabu Shabu in Wien.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adam Liaw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adam Liaw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit Button stock vector_ Illustration of leaving, away - 22329391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit Button stock vector_ Illustration of leaving, away - 22329391.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shoyu Ramen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shoyu Ramen1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Salmon Fish and Product Icon Set Stock Vector - Illustration of gold, coin_ 127540410" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Salmon Fish and Product Icon Set Stock Vector - Illustration of gold, coin_ 127540410.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iconos gratuitos de Flecha Izquierda diseñados por Lizel Arina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos gratuitos de Flecha Izquierda diseñados por Lizel Arina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Premium Vector _ Japanese food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premium Vector _ Japanese food.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile Icon Silhouette PNG Transparent, Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG Image For Free Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile Icon Silhouette PNG Transparent, Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG Image For Free Download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit Button stock vector_ Illustration of leaving, away - 2232939" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit Button stock vector_ Illustration of leaving, away - 2232939.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Contacts White Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Contacts White Icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browse thousands of Button 3D Animation images for design inspiration3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browse thousands of Button 3D Animation images for design inspiration3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contacts icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contacts icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Retro Japanese Ramen Icon by meatman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Retro Japanese Ramen Icon by meatman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browse thousands of Button 3D Animation images for design inspiration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browse thousands of Button 3D Animation images for design inspiration.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iconos de Flecha Izquierda para descargar gratis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos de Flecha Izquierda para descargar gratis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit Button stock vector_ Illustration of leaving, away - 22329392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit Button stock vector_ Illustration of leaving, away - 22329392.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yakitori Recipe 焼き鳥" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yakitori Recipe 焼き鳥.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shoyu Ramen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shoyu Ramen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buttons stock illustration_ Illustration of periodic, dimensions - 2821609" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons stock illustration_ Illustration of periodic, dimensions - 2821609.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browse thousands of Button 3D Animation images for design inspiration1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browse thousands of Button 3D Animation images for design inspiration1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mensaje General - MiLiberty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mensaje General - MiLiberty.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Philippine peso free vector icons designed by iconixar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Philippine peso free vector icons designed by iconixar (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Premium Vector _ Japanese food1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premium Vector _ Japanese food1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Takoyaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Takoyaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browse thousands of Button 3D Animation images for design inspiration2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Browse thousands of Button 3D Animation images for design inspiration2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMA Sushi Menu _ Food Photography" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMA Sushi Menu _ Food Photography.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Philippine Peso free vector icons designed by iconixar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Philippine Peso free vector icons designed by iconixar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Entry And Exit Gate Sign Board(Pack of 1 Entry 1 Exit Board) - Petro Mart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entry And Exit Gate Sign Board(Pack of 1 Entry 1 Exit Board) - Petro Mart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

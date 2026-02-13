@@ -1,0 +1,11 @@
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\bin\Debug\Food Ordering System.exe.config
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\bin\Debug\Food Ordering System.exe
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\bin\Debug\Food Ordering System.pdb
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food Ordering System.csproj.AssemblyReference.cache
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food_Ordering_System.Form1.resources
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food_Ordering_System.Form2.resources
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food_Ordering_System.Properties.Resources.resources
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food Ordering System.csproj.GenerateResource.cache
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food Ordering System.csproj.CoreCompileInputs.cache
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food Ordering System.exe
+C:\Users\JM SECILLANO\source\repos\Food Ordering System\Food Ordering System\obj\Debug\Food Ordering System.pdb
